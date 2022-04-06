@@ -74,12 +74,8 @@ namespace MPara.Account.Controllers
         [HttpDelete]
         public async Task<IActionResult> Delete(int accountId)
         {
-            _claimModel = MParaClaims.GetClaims(await HttpContext.GetTokenAsync("access_token"));
 
-            var accountFromRepo = _unitOfWork.AccountRepository
-                                                .GetAll()
-                                                .FirstOrDefault(x => x.AppUserId == _claimModel.ApiUserId
-                                                && x.AccountId == accountId);
+            var accountFromRepo = await GetAccount(accountId);
 
             if (accountFromRepo == null)
                 return new JsonResult(new ApiResponse<bool>(ResponseType.NotFound,
@@ -99,12 +95,7 @@ namespace MPara.Account.Controllers
         [HttpPut]
         public async Task<IActionResult> Activate(int accountId)
         {
-            _claimModel = MParaClaims.GetClaims(await HttpContext.GetTokenAsync("access_token"));
-
-            var accountFromRepo = _unitOfWork.AccountRepository
-                                                .GetAll()
-                                                .FirstOrDefault(x => x.AppUserId == _claimModel.ApiUserId
-                                                && x.AccountId == accountId);
+            var accountFromRepo = await GetAccount(accountId);
 
             if (accountFromRepo == null)
                 return new JsonResult(new ApiResponse<bool>(ResponseType.NotFound,
@@ -131,13 +122,24 @@ namespace MPara.Account.Controllers
                                                 .Where(x => x.AppUserId == _claimModel.ApiUserId)
                                                 .ToList();
 
-            if (accountsFromRepo == null && accountsFromRepo.Count < 1)
+            if (accountsFromRepo.Count < 1)
                 return new JsonResult(new ApiResponse<List<Repositories.Entity.Account>>(ResponseType.NotFound,
                                 null));
 
             return new JsonResult(new ApiResponse<List<Repositories.Entity.Account>>(ResponseType.Success,
                                accountsFromRepo));
 
+        }
+
+        private async Task<Repositories.Entity.Account> GetAccount(int accountId)
+        {
+
+            _claimModel = MParaClaims.GetClaims(await HttpContext.GetTokenAsync("access_token"));
+
+            return _unitOfWork.AccountRepository
+                                    .GetAll()
+                                    .FirstOrDefault(x => x.AppUserId == _claimModel.ApiUserId
+                                    && x.AccountId == accountId);
         }
 
     }

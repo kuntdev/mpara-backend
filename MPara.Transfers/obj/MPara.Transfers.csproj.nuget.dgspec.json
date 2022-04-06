@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Transfers/MPara.Transfers.csproj": {}
+  },
+  "projects": {
+    "/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/MPara.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/MPara.Repositories.csproj",
+        "projectName": "MPara.Repositories",
+        "projectPath": "/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/MPara.Repositories.csproj",
+        "packagesPath": "/Users/emrekunt/.nuget/packages/",
+        "outputPath": "/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emrekunt/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.16.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Transfers/MPara.Transfers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Transfers/MPara.Transfers.csproj",
+        "projectName": "MPara.Transfers",
+        "projectPath": "/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Transfers/MPara.Transfers.csproj",
+        "packagesPath": "/Users/emrekunt/.nuget/packages/",
+        "outputPath": "/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Transfers/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emrekunt/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/MPara.Repositories.csproj": {
+                "projectPath": "/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/MPara.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

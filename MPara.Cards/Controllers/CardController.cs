@@ -70,11 +70,7 @@ namespace MPara.Cards.Controllers
         [HttpDelete]
         public async Task<IActionResult> Delete(int cardId)
         {
-            _claimModel = MParaClaims.GetClaims(await HttpContext.GetTokenAsync("access_token"));
-
-            var cardFromRepo = _unitOfWork.CardRepository.GetAll()
-                                        .FirstOrDefault(x => x.AppUserId == _claimModel.ApiUserId
-                                                        && x.CardId == cardId);
+            var cardFromRepo = await GetCard(cardId);
 
             if (cardFromRepo == null)
                 return new JsonResult(new ApiResponse<bool>(ResponseType.NotFound,
@@ -89,11 +85,7 @@ namespace MPara.Cards.Controllers
         [HttpPut]
         public async Task<IActionResult> Activate(int cardId)
         {
-            _claimModel = MParaClaims.GetClaims(await HttpContext.GetTokenAsync("access_token"));
-
-            var cardFromRepo = _unitOfWork.CardRepository.GetAll()
-                                        .FirstOrDefault(x => x.AppUserId == _claimModel.ApiUserId
-                                                        && x.CardId == cardId);
+            var cardFromRepo = await GetCard(cardId);
 
             if (cardFromRepo == null)
                 return new JsonResult(new ApiResponse<bool>(ResponseType.NotFound,
@@ -119,6 +111,15 @@ namespace MPara.Cards.Controllers
                                                 null, "Tanimli bir kart bulunamadi"));
 
             return new JsonResult(new ApiResponse<List<Repositories.Entity.Card>>(ResponseType.Success, cardsFromRepo));
+        }
+
+        private async Task<Repositories.Entity.Card> GetCard(int cardId)
+        {
+            _claimModel = MParaClaims.GetClaims(await HttpContext.GetTokenAsync("access_token"));
+
+            return _unitOfWork.CardRepository.GetAll()
+                                        .FirstOrDefault(x => x.AppUserId == _claimModel.ApiUserId
+                                                        && x.CardId == cardId);
         }
 
     }

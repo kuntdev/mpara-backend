@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="All">
+  <MonoDevelop.Ide.ItemProperties.MPara.Cards PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MPara.Transfers/Controllers/TransferController.cs">
+    <Files>
+      <File FileName="MPara.Account/Controllers/AccountController.cs" Line="23" Column="38" />
+      <File FileName="MPara.Cards/Controllers/CardController.cs" />
+      <File FileName="MPara.Settings/Controllers/UserDetailController.cs" />
+      <File FileName="MPara.Transfers/Controllers/FastTransferController.cs" />
+      <File FileName="MPara.Transfers/Controllers/TransferController.cs" Line="24" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MPara" expanded="True">
+            <Node name="MPara.Transfers" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="TransferController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MPara.Authentication PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.MPara.Account PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MPara.Settings PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.ItemProperties.MPara.Transfers PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="All" Name="All">
+      <Items>
+        <StartupItem ItemId="{0D589B56-F140-4301-B9B1-A58E04A0F973}" ItemName="MPara.Account" ConfigurationId="Default" />
+        <StartupItem ItemId="{DAEFE300-5C46-4CEB-9AAD-5D84045075AD}" ItemName="MPara.Authentication" ConfigurationId="Default" />
+        <StartupItem ItemId="{44E3FAE6-A868-42B3-999D-79C672E2EBEC}" ItemName="MPara.Cards" ConfigurationId="Default" />
+        <StartupItem ItemId="{CBFCF71A-31D3-4AF2-8ED4-1F58F8167BA0}" ItemName="MPara.Settings" ConfigurationId="Default" />
+        <StartupItem ItemId="{3434B03A-02FC-4C9B-AA39-5327F536C7E5}" ItemName="MPara.Transfers" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <AuthorInfo Name="emrekunt" Email="emre@kunt.dev" Copyright="kunt.dev" Company="kunt.dev" Trademark="kunt.dev" />
+</Properties>
