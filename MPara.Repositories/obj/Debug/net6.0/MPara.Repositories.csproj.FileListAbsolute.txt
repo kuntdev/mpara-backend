@@ -1,0 +1,12 @@
+/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/bin/Debug/net6.0/MPara.Repositories.deps.json
+/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/bin/Debug/net6.0/MPara.Repositories.dll
+/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/bin/Debug/net6.0/ref/MPara.Repositories.dll
+/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/bin/Debug/net6.0/MPara.Repositories.pdb
+/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/obj/Debug/net6.0/MPara.Repositories.csproj.AssemblyReference.cache
+/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/obj/Debug/net6.0/MPara.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/obj/Debug/net6.0/MPara.Repositories.AssemblyInfoInputs.cache
+/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/obj/Debug/net6.0/MPara.Repositories.AssemblyInfo.cs
+/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/obj/Debug/net6.0/MPara.Repositories.csproj.CoreCompileInputs.cache
+/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/obj/Debug/net6.0/MPara.Repositories.dll
+/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/obj/Debug/net6.0/ref/MPara.Repositories.dll
+/Users/emrekunt/Documents/repos/dotnetcore/MPara/MPara.Repositories/obj/Debug/net6.0/MPara.Repositories.pdb

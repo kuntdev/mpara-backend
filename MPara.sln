@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.19
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPara.Authentication", "MPara.Authentication\MPara.Authentication.csproj", "{DAEFE300-5C46-4CEB-9AAD-5D84045075AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPara.Account", "MPara.Account\MPara.Account.csproj", "{0D589B56-F140-4301-B9B1-A58E04A0F973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPara.Cards", "MPara.Cards\MPara.Cards.csproj", "{44E3FAE6-A868-42B3-999D-79C672E2EBEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPara.Transfers", "MPara.Transfers\MPara.Transfers.csproj", "{3434B03A-02FC-4C9B-AA39-5327F536C7E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPara.Repositories", "MPara.Repositories\MPara.Repositories.csproj", "{7520767A-4FC7-4616-9C6D-A2858AFDA895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPara.Settings", "MPara.Settings\MPara.Settings.csproj", "{CBFCF71A-31D3-4AF2-8ED4-1F58F8167BA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAEFE300-5C46-4CEB-9AAD-5D84045075AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAEFE300-5C46-4CEB-9AAD-5D84045075AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAEFE300-5C46-4CEB-9AAD-5D84045075AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAEFE300-5C46-4CEB-9AAD-5D84045075AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D589B56-F140-4301-B9B1-A58E04A0F973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D589B56-F140-4301-B9B1-A58E04A0F973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D589B56-F140-4301-B9B1-A58E04A0F973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D589B56-F140-4301-B9B1-A58E04A0F973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E3FAE6-A868-42B3-999D-79C672E2EBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E3FAE6-A868-42B3-999D-79C672E2EBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E3FAE6-A868-42B3-999D-79C672E2EBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E3FAE6-A868-42B3-999D-79C672E2EBEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3434B03A-02FC-4C9B-AA39-5327F536C7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3434B03A-02FC-4C9B-AA39-5327F536C7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3434B03A-02FC-4C9B-AA39-5327F536C7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3434B03A-02FC-4C9B-AA39-5327F536C7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7520767A-4FC7-4616-9C6D-A2858AFDA895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7520767A-4FC7-4616-9C6D-A2858AFDA895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7520767A-4FC7-4616-9C6D-A2858AFDA895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7520767A-4FC7-4616-9C6D-A2858AFDA895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBFCF71A-31D3-4AF2-8ED4-1F58F8167BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFCF71A-31D3-4AF2-8ED4-1F58F8167BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFCF71A-31D3-4AF2-8ED4-1F58F8167BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFCF71A-31D3-4AF2-8ED4-1F58F8167BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A2CDE7A-C4B0-4F83-AED1-0D41EBE3D75F}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.StandardHeader = $2
+		$0.VersionControlPolicy = $3
+	EndGlobalSection
+EndGlobal

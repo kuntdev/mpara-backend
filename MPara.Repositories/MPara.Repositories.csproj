@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Concrete\" />
+    <None Remove="Abstract\" />
+    <None Remove="Entity\" />
+    <None Remove="Abstract\Account\" />
+    <None Remove="Abstract\Cards\" />
+    <None Remove="Abstract\Transfers\" />
+    <None Remove="Abstract\Auth\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Concrete\EntityFramework\" />
+    <None Remove="Models\" />
+    <None Remove="System.IdentityModel.Tokens.Jwt" />
+    <None Remove="Abstract\Settings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Concrete\" />
+    <Folder Include="Abstract\" />
+    <Folder Include="Entity\" />
+    <Folder Include="Abstract\Account\" />
+    <Folder Include="Abstract\Cards\" />
+    <Folder Include="Abstract\Transfers\" />
+    <Folder Include="Abstract\Auth\" />
+    <Folder Include="Concrete\EntityFramework\" />
+    <Folder Include="Models\" />
+    <Folder Include="Abstract\Settings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.16.0" />
+  </ItemGroup>
+</Project>
