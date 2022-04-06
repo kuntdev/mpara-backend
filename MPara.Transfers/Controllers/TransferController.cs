@@ -30,11 +30,12 @@ namespace MPara.Transfers.Controllers
 
             var account = _unitOfWork.AccountRepository.GetAll()
                                         .FirstOrDefault(x => x.AccountId == model.AccountId
-                                                    && x.AppUserId == _claimModel.ApiUserId);
-
+                                                    && x.AppUserId == _claimModel.ApiUserId)
             if (account == null) { }
             if (account.Amount <= model.Amount)
                 return new JsonResult(new ApiResponse<bool>(ResponseType.Exception, false, "Yetersiz bakiye"));
+
+
 
 
             var transferToAdd = new Repositories.Entity.Transfer
